@@ -1,0 +1,688 @@
+@charset "utf-8";
+
+img {
+  max-width: 100%;
+}
+
+header img {
+  height: 20px;
+  width: 240px;
+  margin-top: 16px;
+  margin-left: 16px;
+  object-fit: cover;
+}
+
+header {
+  position: relative;
+}
+
+/* メイン画像 */
+main .dining {
+  display: block;
+}
+
+main .dining img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  margin: 10px 20px 0 20px;
+}
+
+/* コンセプト */
+main h1 {
+  font-size: 28px;
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 80px;
+}
+
+.line {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  color: #223e69;
+  margin-bottom: 24px;
+}
+
+.line::before,
+.line::after {
+  background-color: #223e69;
+  content: "";
+  font-size: 12px;
+  height: 1px;
+  width: 50px;
+}
+
+.line2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  color: #B71B26;
+  margin-bottom: 24px;
+}
+
+.line2::before,
+.line2::after {
+  background-color: #B71B26;
+  content: "";
+  height: 1px;
+  width: 50px;
+}
+
+main h2 {
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+/* サービス */
+main #serveArea h3 {
+  font-weight: lighter;
+}
+
+main {
+  display: inline-block;
+}
+
+main p {
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+}
+
+#conceArea p,
+#serveArea p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+p.more {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  padding-left: 270px;
+  margin-bottom: 10px;
+}
+
+main #serveArea img {
+  display: inline-block;
+  margin-left: 40px;
+  width: 80%;
+  height: auto;
+}
+
+/* 施工の流れ */
+#sekouArea {
+  background-color: #e5e5e5;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  height: 550px;
+  max-width: 100%;
+  width: 85%;
+  margin-left: 27px;
+}
+
+#sekouArea p {
+  width: 350px;
+  border-radius: 40px;
+  font-size: 25px;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  display: inline-block;
+  padding: 0;
+  margin: 2px;
+}
+
+#sekouArea .sankaku {
+  background-color: #e5e5e5;
+  color: #B71B26;
+}
+
+/* よくある質問 */
+#situmonArea {
+  display: inline-block;
+}
+
+.circleQ {
+  background-color: #333333;
+  color: white;
+  font-size: 20px;
+  width: 35px;
+  height: 32px;
+  border-radius: 50%;
+  padding-left: 8px;
+  line-height: 32px;
+  margin-left: 20px;
+}
+
+.circleA {
+  background-color: #B71B26;
+  color: white;
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding-left: 8px;
+  line-height: 32px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+  line-height: 2.4em;
+  letter-spacing: 0.1em;
+  padding-left: 15px;
+  padding-right: 40px;
+}
+
+.q1,
+.a1,
+.q2,
+.a2 {
+  display: flex;
+}
+
+/* お問い合わせ */
+#toiawaArea {
+  max-width: 100%;
+  width: 85%;
+  margin-left: 27px;
+  background-color: #e5e5e5;
+
+}
+
+#toiawaArea p {
+  margin: 10px 0 10px 0;
+
+}
+
+.botan {
+  display: flex;
+  justify-content: center;
+}
+
+
+.botan1,
+.botan2 {
+  width: 120px;
+  padding: 0;
+}
+
+form {
+  max-width: 100%;
+  width: 90%;
+}
+
+form .text {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.toi,
+.botan1,
+.botan2 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  width: 310px;
+  margin-top: 5px;
+  padding: 4px 8px;
+
+}
+
+#toiawaArea .post {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+#toiawaArea .post .postimage {
+  width: 50px;
+  padding-left: 30px;
+  margin-right: 0;
+}
+
+#toiawaArea .post p {
+  width: 200px;
+  padding: 0;
+  text-align: left;
+  margin-right: 120px;
+}
+
+.post input[type="text"] {
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  width: 45%;
+  padding: 4px 8px;
+}
+
+#toiawaArea.post p.post-input {
+  width: 100px;
+  margin-right: 150px;
+}
+
+#toiawaArea p .hissu {
+  background-color: #B71B26;
+  color: #fff;
+  border-radius: 20px;
+  display: inline-block;
+  width: 50px;
+
+}
+
+#toiawaArea .kakunin {
+  background-color: #333333;
+  color: #fff;
+  width: 180px;
+  text-align: center;
+  display: inline-block;
+  margin: 24px 0 24px 90px;
+  padding: 10px 0 10px 0;
+}
+
+/* TOPへ戻る */
+.back {
+  background-color: #333333;
+  width: 65px;
+  margin-left: 387px;
+}
+
+.back p {
+  padding-left: 20px;
+}
+
+.back a {
+  color: #fff;
+  font-size: 40px;
+}
+
+
+
+footer {
+  background-color: #333333;
+  max-width: 100%;
+  width: 90%;
+  color: #fff;
+  text-align: center;
+  margin-left: 17px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/* //////////////////////////////////////////// */
+/* ハンバーガーメニュー */
+
+
+/* 以下に参考サイトのメニュー用CSSを貼り付ける */
+/* メニューを画面上部に固定表示しています */
+.hanb_Menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+/* メニューアイコンを画面右上に固定しています */
+.hanb_Menu .menu-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 45px;
+  top: 12px;
+  padding-top: 5px;
+  height: 12px;
+
+}
+
+/* メニューアイコン（三本線）の真ん中の線です */
+.hanb_Menu .menu-icon .navicon {
+  background: #B71B26;
+  /* 色は自由に変更可能です */
+  display: block;
+  height: 2px;
+  /* 太さ */
+  width: 31px;
+  /* 長さ */
+  position: relative;
+  transition: background .4s ease-out;
+  /* 形が変わる時のアニメーション */
+}
+
+/* メニューアイコン（三本線）の上と下の線を疑似要素で追加 */
+.hanb_Menu .menu-icon .navicon::before,
+.hanb_Menu .menu-icon .navicon::after {
+  background: #B71B26;
+  /* 色は自由に変更可能です */
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .4s ease-out;
+  /* 形が変わる時のアニメーション */
+  width: 100%;
+}
+
+.hanb_Menu .menu-icon .navicon::before {
+  top: 10px;
+}
+
+/* 位置を上にずらしています */
+.hanb_Menu .menu-icon .navicon::after {
+  top: -10px;
+}
+
+/* 位置を下にずらしています */
+/* 表示されるメニューです */
+.hanb_Menu .menu {
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+  max-height: 0;
+  /* ★最初は高さを0にして非表示状態に */
+  transition: max-height .6s;
+  /* 表示されるときのアニメーション */
+  text-align: center;
+}
+
+/* メニュー部分のデザインです */
+.hanb_Menu .menu li:first-of-type {
+  padding-top: 50px;
+}
+
+.hanb_Menu .menu li a {
+  display: block;
+  padding: 24px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hanb_Menu .menu li a:hover {
+  background-color: #f4f4f4;
+}
+
+/* チェックボックスは常に非表示です */
+.hanb_Menu .menu-btn {
+  display: none;
+}
+
+/* ▼▼▼以下はチェックボックスがONの時の状態です▼▼▼ */
+.hanb_Menu .menu-btn:checked~.menu {
+  max-height: 338px;
+  /* ★チェックボックスがオンの時高さを338pxにして表示させます */
+  transition: max-height .6s;
+}
+
+/* メニューボタンの中央の線を非表示に */
+.hanb_Menu .menu-btn:checked~.menu-icon .navicon {
+  background: transparent;
+}
+
+/* メニューボタンの上下の線を45度傾けて✕印を作ります */
+.hanb_Menu .menu-btn:checked~.menu-icon .navicon::before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.hanb_Menu .menu-btn:checked~.menu-icon .navicon::after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+/* サイトに合わせてオリジナルカスタマイズ */
+.hanb_Menu .menu-icon {
+  top: 26px;
+}
+
+.hanb_Menu .menu-icon .navicon,
+.hanb_Menu .menu-icon .navicon::before,
+.hanb_Menu .menu-icon .navicon::after {
+  background: #B71B26;
+}
+
+@media screen and (max-width: 767px) {
+
+  .hanb_Menu {
+    display: block;
+  }
+
+  .nav_menu {
+    display: none;
+
+  }
+
+}
+
+/* //////////////////////////////////////////// */
+
+@media screen and (min-width: 768px) {
+
+  .hanb_Menu {
+    display: none;
+  }
+
+  .header {
+    margin-left: 100px;
+    height: 45px;
+  }
+
+  header {
+    display: flex;
+  }
+
+  header img {
+    margin-left: 155px;
+  }
+
+  header nav {
+    width: 800px;
+  }
+
+  header nav ul {
+    display: flex;
+    margin-left: 200px;
+
+  }
+
+  header nav ul li {
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  /* メイン画像 */
+  main .dining img {
+    height: 80vh;
+    width: 80vw;
+    margin-left: 155px;
+  }
+
+  /* コンセプト */
+  #conceArea {
+    width: 1020px;
+    margin: 160px 0 160px 165px;
+
+  }
+
+  #conceArea h1,
+  #conceArea h2,
+  #conceArea p {
+    width: 1020px;
+  }
+
+  #conceArea h1,
+  #conceArea h2 {
+    margin-left: 30px;
+  }
+
+  /* サービス */
+  #serveArea h1 {
+    width: 1020px;
+    padding-left: 395px;
+  }
+
+  #serveArea h2 {
+    width: 300px;
+  }
+
+  #serveArea .photo {
+    display: flex;
+    margin-left: 145px;
+    width: 1020px;
+    height: 473px;
+  }
+
+  #serveArea .photo img {
+    width: 300px;
+    height: 210px;
+    margin: 0;
+  }
+
+  #serveArea .photo p {
+    width: 300px;
+    margin: 0px;
+    padding: 0;
+  }
+
+  .bath,
+  .living,
+  .kichen {
+    margin: 0 30px 0 30px;
+  }
+
+  /* 施工の流れ */
+  #sekouArea {
+    width: 1080px;
+    height: 498px;
+    padding-top: 100px;
+    margin-left: 155px;
+  }
+
+  #sekouArea h1 {
+    margin: auto;
+  }
+
+  .sekou {
+    display: flex;
+    margin-left: 180px;
+    margin-top: 80px;
+  }
+
+  #sekouArea p {
+    height: 200px;
+    flex-basis: 40px;
+  }
+
+  #sekouArea .text {
+    padding: 35px 0 0 5px;
+    font-size: 20px;
+  }
+
+  #sekouArea .sankaku {
+    display: none;
+  }
+
+  #sekouArea .arow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid #B71B26;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin: 90px 40px 0 40px;
+  }
+
+  /* よくある質問 */
+  .text1,
+  .text2,
+  .text3,
+  .text4 {
+    width: 700px;
+    line-height: 3.0em;
+    letter-spacing: 0.1em;
+  }
+
+  .circleA,
+  .circleQ {
+    margin: 10px 0 0 120px;
+  }
+
+  #situmonArea {
+    margin-left: 155px;
+    margin-bottom: 150px;
+  }
+
+  #situmonArea h1 {
+    margin-left: 352px;
+  }
+
+  /* お問い合わせ */
+  #toiawaArea {
+    width: 1080px;
+    margin-bottom: 80px;
+    margin-left: 155px;
+  }
+
+  #toiawaArea h1 {
+    margin: auto;
+  }
+
+  .toi {
+    display: flex;
+    margin-left: 70px;
+  }
+
+  .toi .text {
+    text-align: right;
+    padding-top: 10px;
+  }
+
+  .toi .text .hissu {
+    text-align: center;
+  }
+
+  .toi input {
+    margin-left: 10px;
+  }
+
+  .toi .text_bun {
+    padding-top: 25px;
+  }
+
+  .toi textarea {
+    margin-left: 10px;
+  }
+
+  #toiawaArea .kakunin {
+    margin-left: 450px;
+  }
+
+  /* 戻るボタン */
+  .back {
+    margin-left: 1169px;
+  }
+
+  .back p {
+    padding: 10px;
+  }
+
+  footer {
+    width: 1080px;
+    margin-left: 155px;
+  }
+}
